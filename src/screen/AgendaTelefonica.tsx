@@ -54,6 +54,7 @@ const AgendaTelefonica = () => {
             <Button
                 title="Agregar Contacto"
                 onPress={agregarContacto}
+                color="#2c6e49"
             />
             <Text style={{ fontSize: 20, marginTop: 20 }}>Contactos:</Text>
             <FlatList
